@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css" integrity="sha256-8nf+BDtOgthqqdcfZXfDwth8LL6k314ILswPBDzXMp4=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>CTAI Lab (Storage) - AAI Subject Listing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+		
+		h2 {
+			font-size: 25px;
+		}
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        input, button {
+            margin-bottom: 10px;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+	
+	<h2>Subject listing</h2>
+	<p>The list of subjects listed here are static, embedded within the HTML.</p>
+	<a href="addSubject.html">Add a subject</a>
+    <table id="studentTable">
+        <thead>
+            <tr>
+				<th></th>
+				<th>Subject Code</th>
+                <th>Subject Name</th>
+				<th>Credit Unit</th>
+				<th>Taken in Semester</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+				<td><img src="images/letter-a.png" height="50px" width="50px"></td>
+				<td>CIT1C18</td>
+                <td>Computational Thinking</td>
+				<td>4</td>
+				<td>1.1</td>
+            </tr>
+            <tr>
+				<td><img src="images/letter-b.png" height="50px" width="50px"></td>
+				<td>CCF1C03</td>
+                <td>Cybersecurity Fundamentals</td>
+				<td>2</td>
+				<td>1.1</td>
+            </tr>
+            <tr>
+				<td><img src="images/letter-c.png" height="50px" width="50px"></td>
+				<td>CIA1C11</td>
+                <td>Data Visualisation and Analytics</td>
+				<td>4</td>
+				<td>1.1</td>
+            </tr>
+            <tr>
+				<td><img src="images/letter-d.png" height="50px" width="50px"></td>
+				<td>CIA1C07</td>
+                <td>Logic and Mathematics</td>
+				<td>3</td>
+				<td>1.1</td>
+            </tr>
+            <tr>
+				<td><img src="images/letter-e.png" height="50px" width="50px"></td>
+				<td>CIT1C19</td>
+                <td>User Experience and Interface Design</td>
+				<td>3</td>
+				<td>1.1</td>
+            </tr>
+		</tbody>
+    </table>
+</body>
+</html>
